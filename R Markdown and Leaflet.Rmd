@@ -11,5 +11,5 @@ library(leaflet)
 
 m <- leaflet() %>%
   addTiles() %>%  
-  addMarkers(lng=-78.6716, lat=35.7855, popup="Work")
+  addMarkers(lng=-78.6716, lat=35.7855, popup="NC State")
 m  
