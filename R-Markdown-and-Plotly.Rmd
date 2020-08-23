@@ -1,0 +1,14 @@
+---
+title: "R-Markdown-and-Plotly"
+author: "Pingping"
+date: "8/23/2020"
+output: html_document
+---
+
+```{r, echo = TRUE, message= FALSE, warning = FALSE}
+library(plotly)
+library(datasets)
+cars <- datasets::cars
+p <- plot_ly(cars, x = ~dist, y = ~speed , type = 'scatter', mode = "markers")
+p
+```
